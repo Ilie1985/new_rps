@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #e09bd1;
+  font-family: sans-serif;
+}
+.heading {
+  font-size: 50px;
+}
+.score {
+  height: 20vh;
+  display: flex;
+  justify-content:space-around;
+  align-items:center ;
+}
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+.computer-hand {
+  width: 250px;
+  margin-left:30px;
+}
+.user-hand {
+  width: 250px;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eed4ca;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.restart-button{
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eed4ca;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+.result{
+  padding:50px;
+}
