@@ -95,7 +95,8 @@ function App() {
           <button
             className="button"
             key={index}
-            onClick={() => handleOnClick(choice)} disabled={gameOver}
+            onClick={() => handleOnClick(choice)}
+            disabled={gameOver}
           >
             {choice}
           </button>
@@ -110,7 +111,7 @@ function App() {
       <div className="button-div">
         {gameOver && (
           <button className="restart-button" onClick={() => reset()}>
-            Restart Game?
+            Restart the Game?
           </button>
         )}
       </div>
